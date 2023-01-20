@@ -24,7 +24,7 @@ do {
  while (y==4){
    r = rand() % 1000 + 1;
    y=0;}
-  printf("%d\n",r);
+  /*printf("%d\n",r);*/
   for(i = 1;i<6;i++){
   printf("Please enter your guess:");
  scanf("%d",&a);
